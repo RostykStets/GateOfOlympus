@@ -1,10 +1,10 @@
-package com.wildtraff.gatesofolympus.domain.viewmodels
+package com.wildtraff.gatesofolympus.application.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.wildtraff.gatesofolympus.data.repository.interfaces.IGameLevelRepository
-import com.wildtraff.gatesofolympus.domain.mapper.DtoModelMapper
-import com.wildtraff.gatesofolympus.domain.models.GameLevel
+import com.wildtraff.gatesofolympus.application.mapper.DtoModelMapper
+import com.wildtraff.gatesofolympus.application.models.GameLevel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

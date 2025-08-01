@@ -1,4 +1,4 @@
-package com.wildtraff.gatesofolympus.domain.gamelogic
+package com.wildtraff.gatesofolympus.application.gamelogic
 
 data class GameState(
     val score: Int = 0,

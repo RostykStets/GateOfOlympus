@@ -1,7 +1,7 @@
-package com.wildtraff.gatesofolympus.domain.mapper
+package com.wildtraff.gatesofolympus.application.mapper
 
 import com.wildtraff.gatesofolympus.data.dto.GameLevelDto
-import com.wildtraff.gatesofolympus.domain.models.GameLevel
+import com.wildtraff.gatesofolympus.application.models.GameLevel
 
 class DtoModelMapper {
     fun dtoToModel(gameLevelDto: GameLevelDto): GameLevel {

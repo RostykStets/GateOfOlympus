@@ -1,4 +1,4 @@
-package com.wildtraff.gatesofolympus.domain.models
+package com.wildtraff.gatesofolympus.application.models
 
 data class GameLevel(
     val id: Int = 0,

@@ -21,7 +21,7 @@ import com.wildtraff.gatesofolympus.ui.screens.MainMenuScreen
 import com.wildtraff.gatesofolympus.ui.screens.PauseMenuScreen
 import com.wildtraff.gatesofolympus.ui.screens.SettingsScreen
 import com.wildtraff.gatesofolympus.ui.screens.WinScreen
-import com.wildtraff.gatesofolympus.domain.viewmodels.GameLevelViewModel
+import com.wildtraff.gatesofolympus.application.viewmodels.GameLevelViewModel
 
 @Composable
 fun AppNavigationGraph(

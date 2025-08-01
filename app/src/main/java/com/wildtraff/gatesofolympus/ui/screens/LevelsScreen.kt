@@ -31,8 +31,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.wildtraff.gatesofolympus.R
-import com.wildtraff.gatesofolympus.domain.models.GameLevel
-import com.wildtraff.gatesofolympus.domain.viewmodels.GameLevelViewModel
+import com.wildtraff.gatesofolympus.application.models.GameLevel
+import com.wildtraff.gatesofolympus.application.viewmodels.GameLevelViewModel
 
 @Composable
 fun LevelsScreen(

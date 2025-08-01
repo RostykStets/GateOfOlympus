@@ -2,7 +2,7 @@ package com.wildtraff.gatesofolympus.ui.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import com.wildtraff.gatesofolympus.domain.gamelogic.GameState
+import com.wildtraff.gatesofolympus.application.gamelogic.GameState
 import kotlinx.coroutines.delay
 
 @Composable

@@ -42,13 +42,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.wildtraff.gatesofolympus.domain.gamelogic.GameState
+import com.wildtraff.gatesofolympus.application.gamelogic.GameState
 import com.wildtraff.gatesofolympus.R
-import com.wildtraff.gatesofolympus.domain.gamelogic.TapEngine
-import com.wildtraff.gatesofolympus.domain.gamelogic.AnimatedBall
-import com.wildtraff.gatesofolympus.domain.gamelogic.BrightnessStage
-import com.wildtraff.gatesofolympus.domain.models.GameLevel
-import com.wildtraff.gatesofolympus.domain.viewmodels.GameLevelViewModel
+import com.wildtraff.gatesofolympus.application.gamelogic.TapEngine
+import com.wildtraff.gatesofolympus.application.gamelogic.AnimatedBall
+import com.wildtraff.gatesofolympus.application.gamelogic.BrightnessStage
+import com.wildtraff.gatesofolympus.application.models.GameLevel
+import com.wildtraff.gatesofolympus.application.viewmodels.GameLevelViewModel
 
 val fontGentiumBold = FontFamily(
     Font(R.font.gentium_book_plus_bold, FontWeight.Bold)
